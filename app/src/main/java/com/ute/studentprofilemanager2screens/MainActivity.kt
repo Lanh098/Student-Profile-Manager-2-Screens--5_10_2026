@@ -133,7 +133,7 @@ class MainActivity : AppCompatActivity() {
         super.onDestroy()
         Log.d(TAG, "onDestroy() được gọi")
     }
-    
+
     private fun bindStudentData() {
         tvName.text = student.name
         tvDetails.text = "Lớp: ${student.studentClass} | MSSV: ${student.id}"
